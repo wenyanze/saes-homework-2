@@ -1,0 +1,31 @@
+Date: 2026-10-28T19:20:59.286298+08:00
+Python: 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+Command: D:\py\python.exe -B -m unittest discover -s tests -v
+Exit code: 0
+
+test_failed_compare_clears_results_and_preserves_input (test_gui.CbcGuiTests.test_failed_compare_clears_results_and_preserves_input) ... ok
+test_invalid_tamper_does_not_publish_new_ciphertext (test_gui.CbcGuiTests.test_invalid_tamper_does_not_publish_new_ciphertext) ... ok
+test_padding_damage_displays_current_original_and_failure (test_gui.CbcGuiTests.test_padding_damage_displays_current_original_and_failure) ... ok
+test_reencrypt_clears_previous_comparison (test_gui.CbcGuiTests.test_reencrypt_clears_previous_comparison) ... ok
+test_cancellation (test_saes.MeetInTheMiddleTests.test_cancellation) ... ok
+test_invalid_limits_and_empty_pairs (test_saes.MeetInTheMiddleTests.test_invalid_limits_and_empty_pairs) ... ok
+test_result_limit (test_saes.MeetInTheMiddleTests.test_result_limit) ... ok
+test_three_known_pairs_recover_the_key_pair (test_saes.MeetInTheMiddleTests.test_three_known_pairs_recover_the_key_pair) ... ok
+test_ascii_extension_is_reversible (test_saes.SaesExtensionTests.test_ascii_extension_is_reversible) ... ok
+test_cbc_known_result_and_round_trip (test_saes.SaesExtensionTests.test_cbc_known_result_and_round_trip) ... ok
+test_cbc_tampering_changes_decryption (test_saes.SaesExtensionTests.test_cbc_tampering_changes_decryption) ... ok
+test_display_escapes_literal_backslashes (test_saes.SaesExtensionTests.test_display_escapes_literal_backslashes) ... ok
+test_double_and_triple_modes (test_saes.SaesExtensionTests.test_double_and_triple_modes) ... ok
+test_invalid_ciphertext_and_padding (test_saes.SaesExtensionTests.test_invalid_ciphertext_and_padding) ... ok
+test_invalid_numeric_inputs (test_saes.SaesExtensionTests.test_invalid_numeric_inputs) ... ok
+test_text_boundaries_and_padding (test_saes.SaesExtensionTests.test_text_boundaries_and_padding) ... ok
+test_appendix_d_key_expansion_example (test_saes.SaesPrimitiveTests.test_appendix_d_key_expansion_example) ... ok
+test_appendix_d_transform_examples (test_saes.SaesPrimitiveTests.test_appendix_d_transform_examples) ... ok
+test_block_round_trip_for_representative_values (test_saes.SaesPrimitiveTests.test_block_round_trip_for_representative_values) ... ok
+test_canonical_cross_program_vector (test_saes.SaesPrimitiveTests.test_canonical_cross_program_vector) ... ok
+test_parser_and_fixed_width_format (test_saes.SaesPrimitiveTests.test_parser_and_fixed_width_format) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 9.478s
+
+OK

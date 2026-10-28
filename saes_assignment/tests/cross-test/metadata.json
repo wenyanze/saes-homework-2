@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-10-27T15:54:38.100823+08:00",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 20261027,
+  "peer_dir": "D:\\cNew\\s-aes-main\\s-aes-main",
+  "peer_execution": "supplied saes.exe; not rebuilt locally",
+  "source_binary_correspondence": "not independently verified",
+  "sha256": {
+    "D:\\信息安全导论作业2\\saes_assignment\\src\\saes.py": "616a37251132d60218761cdca4edac5456927b984041e31435a3c88bfe87a455",
+    "D:\\信息安全导论作业2\\saes_assignment\\scripts\\cross_test.py": "e33b6429c487a92c9f22b4e2d5d524b9743780ec5ec3f554c38a14692d7d40b4",
+    "D:\\cNew\\s-aes-main\\s-aes-main\\saes.exe": "a8eaaffbd257ae0ae6cf3ca3c9ad793366906c3d518422a680965764b53bab2b",
+    "D:\\cNew\\s-aes-main\\s-aes-main\\src\\saes.cpp": "f54a3f2076ffa77b3e558b1ec7f32109f0774955f2e7ece3b08a57da9826f494",
+    "D:\\cNew\\s-aes-main\\s-aes-main\\src\\saes.h": "b269107a7bf074d810518b91fde49056c8837ce02eefd53301f6e978ca573312",
+    "D:\\cNew\\s-aes-main\\s-aes-main\\src\\main.cpp": "e4084f1d4e5b862fb023eb3fb5a5a8ac0eab280d095910cdc18c4bc6a04d5bf5"
+  },
+  "counts": {
+    "block": {
+      "total": 1006,
+      "failed": 0
+    },
+    "double": {
+      "total": 100,
+      "failed": 0
+    },
+    "eee": {
+      "total": 100,
+      "failed": 0
+    }
+  },
+  "padding_examples": [
+    {
+      "plaintext": "AB",
+      "a_ascii": "324FD35D",
+      "b_ascii": "324F",
+      "a_cbc": "336E1C69",
+      "b_cbc": "336E"
+    },
+    {
+      "plaintext": "ABC",
+      "a_ascii": "324F9645",
+      "b_ascii": "324F1640",
+      "a_cbc": "336E0E3A",
+      "b_cbc": "336E8E32"
+    }
+  ],
+  "command": "D:\\py\\python.exe scripts/cross_test.py --peer-dir D:\\cNew\\s-aes-main\\s-aes-main"
+}
